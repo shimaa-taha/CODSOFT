@@ -1,0 +1,109 @@
+* {
+    margin: 3px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button1 :hover{
+background-color: green;
+}
+header{
+    text-align: center;
+    padding: 10px;
+    background-image: url(img/background/2.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    font-weight: bold;
+    top: 0;
+}
+.div-4 .button1 :hover{
+    background-color: #601364;
+}
+header :hover{
+    color: orange;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+
+}
+ul li a{
+    color: #fff;
+    padding: 0 20px;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+.name{
+    font-size: 1.8em;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.div-2{
+    
+    padding: 10px;
+    margin: 5px;
+    justify-content: flex-end;
+    width: 100%;
+    bottom:  200px;
+    height: 500px;
+}
+.div-1{
+    background-color: rgb(248, 239, 239);
+    
+    justify-content: flex-end;
+    width: 100%;
+    bottom:  200px;
+    height: 630px;
+}
+.div-3{
+    background-color: rgb(248, 239, 239);
+    
+    justify-content: flex-end;
+    width: 100%;
+    bottom:  200px;
+    height: 630px;
+}
+.div-4{
+    background-color: rgb(248, 239, 239);
+    
+    justify-content: flex-end;
+    width: 100%;
+    bottom: 900px;
+    height: 400px;
+}
+
+.div-4 button ,.div-1 button
+{
+    border-radius: 10px;
+    width: 150px;
+    height: 20px;
+    bottom: 70px;
+    color: #008000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+    overflow: hidden;
+}
+
+
+.div-4 .button1 :hover {
+    background-color: rgb(250, 210, 210);
+    color: black;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+
